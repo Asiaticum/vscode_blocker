@@ -16,6 +16,9 @@ from PyQt5.QtWidgets import (
     QSystemTrayIcon,
 )
 
+# アイコンのパスを設定
+icon_path = "/path/to/your/icon.jpg"
+
 # 開始時間と終了時間のデフォルト値
 start_time_limit = 30
 end_time_limit = 59
@@ -106,7 +109,6 @@ def check_vscode():
 
 
 def create_tray_icon(app):
-    icon_path = os.path.join(os.path.dirname(__file__), "icon.jpg")
     tray_icon = QSystemTrayIcon(QIcon(icon_path), app)
     tray_icon.setToolTip("VS Code Time Lock")
 
