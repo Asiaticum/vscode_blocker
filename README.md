@@ -13,7 +13,7 @@ icon_path = "/path/to/your/icon.jpg"
 
 ## ライブラリのインストール
 ライブラリインストール:
-このアプリケーションを実行するために必要なライブラリを以下でインストールします。
+アプリケーションを実行するために必要なライブラリを以下でインストールします。
 ```bash
 pip install pyautogui psutil PyQt5 pyinstaller
 ```
