@@ -11,14 +11,14 @@ icon_path = "/path/to/your/icon.jpg"
 ```
 の部分を、好きなアイコン画像へのパスに修正してください。
 
-## インストール方法
+## ライブラリのインストール
 ライブラリインストール:
 このアプリケーションを実行するために必要なライブラリを以下でインストールします。
 ```bash
 pip install pyautogui psutil PyQt5 pyinstaller
 ```
 
-exeファイルの生成:
+## exeファイルの作成
 スクリプトファイル（vscode_blocker.py）があるディレクトリで以下のコマンドを実行してください。
 
 ```bash
